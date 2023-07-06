@@ -1,5 +1,17 @@
 # UAS_PENGCIT_E
 
+Teori deteksi bentuk gambar menggunakan contour dalam pengolahan citra adalah salah satu pendekatan untuk mengidentifikasi dan mengklasifikasikan objek berdasarkan fitur kontur atau tepi yang ada dalam citra. Pendekatan ini didasarkan pada pemahaman bahwa kontur atau tepi objek sering kali memberikan informasi penting tentang bentuk, struktur, dan karakteristik objek tersebut.
+
+Berikut adalah langkah-langkah umum dalam teori deteksi bentuk gambar menggunakan contour pada pengolahan citra:
+
+Praproses Citra: Langkah pertama dalam pengolahan citra adalah melakukan praproses untuk meningkatkan kualitas citra. Ini dapat melibatkan penghilangan derau, penerapan operasi perataan, peningkatan kontras, dan normalisasi citra.
+Segmentasi Citra: Setelah praproses, citra perlu disegmentasi untuk memisahkan objek dari latar belakang. Metode segmentasi yang umum digunakan meliputi metode berdasarkan ambang (thresholding), pemisahan berdasarkan warna atau tekstur, dan segmentasi berbasis wilayah.
+Ekstraksi Kontur: Setelah segmentasi, langkah selanjutnya adalah mengekstraksi kontur objek dari citra. Kontur adalah tepi yang membentuk batas objek. Algoritma yang umum digunakan untuk mengekstraksi kontur adalah Algoritma Canny, Algoritma Sobel, atau Algoritma Roberts. Algoritma ini mengidentifikasi perubahan intensitas citra yang signifikan dan menghasilkan tepi objek yang halus.
+Penyaringan Kontur: Setelah ekstraksi kontur, kontur yang dihasilkan mungkin mengandung noise atau tidak relevan dengan bentuk objek yang diinginkan. Oleh karena itu, langkah berikutnya adalah menerapkan penyaringan untuk menghilangkan kontur yang tidak relevan. Filter spasial seperti filter median atau filter Gaussian dapat digunakan untuk menghilangkan noise dan mempertahankan kontur yang penting.
+Deskripsi Kontur: Setelah kontur difilter, langkah selanjutnya adalah mendeskripsikan kontur yang diekstraksi untuk memperoleh fitur yang berguna. Fitur kontur dapat mencakup panjang kontur, luas area tertutup oleh kontur, rasio panjang-lebar, momen, atau bentuk deskriptor seperti Fourier deskriptor atau deskriptor Fourier Transformasi Gelombang Diskrit (DFT).
+Klasifikasi Objek: Setelah fitur kontur diperoleh, langkah terakhir adalah mengklasifikasikan objek berdasarkan fitur-fitur ini. Metode klasifikasi yang umum digunakan termasuk metode berbasis aturan, seperti template matching atau jaringan syaraf tiruan, dan metode berbasis pembelajaran, seperti klasifikasi SVM (Support Vector Machine) atau metode pengklasifikasi berbasis pohon keputusan.
+Pendekatan deteksi bentuk gambar menggunakan contour pada pengolahan citra ini dapat digunakan dalam berbagai aplikasi, seperti pengenalan wajah, pengenalan karakter tulisan tangan, pengenalan objek pada sistem pengawasan video, dan banyak lagi.
+
 Teori yang mendukung mengenai project terkait
 
  Projek di atas menggunakan teknik deteksi kontur untuk mendeteksi bentuk pada gambar. Berikut adalah teori yang mendukung projek tersebut:
