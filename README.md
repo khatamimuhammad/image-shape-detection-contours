@@ -1,4 +1,3 @@
-# UAS_PENGCIT_E
 
 Teori deteksi bentuk gambar menggunakan contour dalam pengolahan citra adalah salah satu pendekatan untuk mengidentifikasi dan mengklasifikasikan objek berdasarkan fitur kontur atau tepi yang ada dalam citra. Pendekatan ini didasarkan pada pemahaman bahwa kontur atau tepi objek sering kali memberikan informasi penting tentang bentuk, struktur, dan karakteristik objek tersebut.
 
